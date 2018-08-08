@@ -22,7 +22,7 @@ class Ideone
 		}
 		else 
 		{
-			System.out.println("negative");
+			System.out.println("Negative");
 
 		}
 	}
