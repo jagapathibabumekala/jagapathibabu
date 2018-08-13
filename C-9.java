@@ -11,9 +11,9 @@ class Ideone
 	{
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
-		int hr,mi;
+		int hr,m;
 		hr=n/60;
-		mi=n%60;
-		System.out.println(hr+" "+mi);
+		m=n%60;
+		System.out.println(hr+" "+m);
 	}
 }
