@@ -12,15 +12,15 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int a[]=new int[10];
-		int max;
+		int maximum;
 		for(int i=0;i<n;i++)
 		   a[i]=sc.nextInt();
-		   max=a[0];
+		   maximum=a[0];
 		 for(int i=1;i<n;i++)
 		 {
-		 	if(max<a[i+1])
-		 		max=a[i+1];
+		 	if(maximum<a[i+1])
+		 		maximum=a[i+1];
 		 }
-		 System.out.println(max);
+		 System.out.println(maximum);
 	}
 }
