@@ -7,8 +7,8 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner s=new Scanner(System.in);
-		String s=s.next();
+		Scanner s1=new Scanner(System.in);
+		String s=s1.next();
 		int count=0;
 		for(int i=0;i<s.length();i++)
 		{
