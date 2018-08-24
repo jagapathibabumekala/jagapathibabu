@@ -13,7 +13,7 @@ class Ideone
 	   int a[]=new int[n];
 	   int count=0;
 	   for(int i=0;i<n;i++)
-	   a[i]=sc.nextInt();
+	   a[i]=s.nextInt();
 	   for(int i=0;i<n;i++)
 	   {
 	   	if(k==a[i])
